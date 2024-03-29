@@ -1,0 +1,28 @@
+
+
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* margin: 5px; */
+}
+
+.link:hover {
+    color: #ffba08;
+}
+
+.active-link {
+    font-weight: bold;
+    color: #ffba08;
+}
+
+.navbar-logo img {
+    width: 200px;
+    height: 200px;
+}
